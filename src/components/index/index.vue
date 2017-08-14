@@ -1,12 +1,17 @@
 <template>
-  <p>我是首页</p>
+  <Vheader></Vheader>
 </template>
 <script>
+    import header from '../header/header'
     export default{
+      components: {
+        Vheader: header
+      }
 
     }
 </script>
-<style lang="sass" scoped>
+<style scoped lang="scss" rel="stylesheet/scss">
+
 
 </style>
 

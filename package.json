@@ -13,11 +13,13 @@
     "lint": "eslint --ext .js,.vue src test/e2e/specs"
   },
   "dependencies": {
+    "iscroll": "^5.2.0",
     "lib-flexible": "^0.3.2",
     "postcss-loader": "^2.0.6",
     "postcss-px2rem": "^0.3.0",
     "sass-loader": "^6.0.6",
     "vue": "^2.3.3",
+    "vue-iscroll-view": "^1.0.3",
     "vue-router": "^2.7.0"
   },
   "devDependencies": {

@@ -4,7 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router/index'
 import 'lib-flexible'
+import IScrollView from 'vue-iscroll-view'
+import IScroll from 'iscroll'
 Vue.config.productionTip = false
+Vue.use(IScrollView, IScroll)
 
 /* eslint-disable no-new */
 new Vue({
