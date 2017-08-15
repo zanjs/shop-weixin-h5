@@ -6,9 +6,10 @@ import router from './router/index'
 import 'lib-flexible'
 import IScrollView from 'vue-iscroll-view'
 import IScroll from 'iscroll'
+var VueAwesomeSwiper = require('vue-awesome-swiper')
 Vue.config.productionTip = false
 Vue.use(IScrollView, IScroll)
-
+Vue.use(VueAwesomeSwiper)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
@@ -16,4 +17,4 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
-router.push('/index')
+
