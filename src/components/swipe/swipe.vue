@@ -45,10 +45,14 @@
   }
 </script>
 <style lang="scss">
+.swiper-wrapper{
+  display: flex;
+}
 .swiper-container{
   width: 750px;
   height: 450px;
   border: 1px solid red;
+  display: inline-block;
   .swiper-slide{
     width: 750px;
     height: 450px;
