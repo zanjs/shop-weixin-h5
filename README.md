@@ -1,5 +1,7 @@
 # shop-weixin-h5
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/shop-weixin-h5.svg)](https://greenkeeper.io/)
+
 > AU微信商城H5
 
 ## Build Setup
